@@ -1,0 +1,236 @@
+@charset "UTF-8";
+body {
+    background-color: #f6e4fc;
+    font-family: cursive;
+}
+
+header#cabecalho {
+    height: 150px;
+    border-top: 6px #b312ee dotted;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1075px;
+    top: 90px;
+    width: 110px;
+    height: 80px;
+}
+
+header#cabecalho h1 {
+    text-align: left;
+    color: rgb(148, 121, 211);
+    box-shadow: 2px 2px 4px rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #b312ee;
+}
+
+div#interface {
+    width: 1000px;
+    background-color: white;
+    margin: 10px auto 0px auto;
+    box-shadow: 2px 6px 10px rgb(182, 86, 226);
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    color: rgb(148, 121, 211);
+}
+
+h1 {
+    text-align: left;
+    color: rgb(148, 121, 211);
+    box-shadow: 2px 2px 4px rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #b312ee;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(148, 121, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #b312ee;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(148, 121, 211);
+}
+
+
+/* formatação da capa*/
+
+figure.capa {
+    position: relative;
+    border: 3px solid #ECCEF5;
+    box-shadow: 10px 20px 30px rebeccapurple;
+    width: 900px;
+    height: 400px;
+    top: -20px;
+}
+
+figure.capa img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Formatação do Menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 29.5px;
+    left: 800px;
+}
+
+nav#menu li {
+    background-color: #928bee;
+    display: inline-block;
+    padding: -10px;
+    margin: 2px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a:hover {
+    color: #eeeaf1
+}
+
+a {
+    background-color: white;
+    box-shadow: 5px 5px 4px rebeccapurple;
+}
+
+
+/*Rodapé*/
+
+footer#rodape {
+    background-color: rgb(110, 98, 175);
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 4px rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #b312ee;
+}
+
+
+/*Skin fotos*/
+
+ul#skins-fotos {
+    width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#skins-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgb(208, 190, 226);
+    background-color: white;
+    box-shadow: 5px 10px 10px rebeccapurple;
+    transition: all 0.7s ease-in;
+}
+
+ul#skins-fotos li span {
+    opacity: 0;
+    color: rgb(108, 72, 192);
+    text-shadow: 1px 1px 1px rgb(226, 222, 231);
+    background-color: rgba(238, 232, 241, 0.5);
+    line-height: 50px;
+    padding: 5px;
+}
+
+ul#skins-fotos li:hover {
+    transform: scale(1.5);
+}
+
+ul#skins-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#skins-fotos li#fotos01 {
+    background: url("../_imagens/Lulu_inverno.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 1215px 717px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#skins-fotos li#fotos02 {
+    background: url("../_imagens/Lulu_doce.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 1215px 717px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#skins-fotos li#fotos03 {
+    background: url("../_imagens/Lulu_Curtindo.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 1000px 590px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#skins-fotos li#fotos04 {
+    background: url("../_imagens/Lulu_cosmica.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 1215px 717px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#skins-fotos li#fotos05 {
+    background: url("../_imagens/Lulu_dragões.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 1215px 717px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#skins-fotos li#fotos06 {
+    background: url("../_imagens/Lulu_pijas.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 380px 380px;
+    background-color: white;
+}
+
+ul#skins-fotos li#fotos06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
